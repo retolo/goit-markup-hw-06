@@ -967,16 +967,41 @@ p{
 
     }
 
-
-
     .second_list{
+        flex-wrap: wrap;
         flex-direction: row;
-
-
+        justify-content: space-between;
         gap: 24px;
+    }
+    .second_section_item{
+        width: calc((100% - 24px) / 2);
+    }
+
+    .header_second_section{
+        text-align: left;
     }
 
 
+    .list_third_section{
+        flex-direction: row;
+        flex-wrap: wrap;
+        row-gap: 64px;
+        column-gap: 24px;
+    }
+
+    .fourth_list{
+        flex-direction: row;
+        flex-wrap: wrap;
+/*        justify-content: space-between;*/
+        gap: 24px;
+    }
+
+    .fourth_item_list{
+        width: 356px;
+
+        width:  calc((100% - 24px) / 3);
+
+    }
 
 
 
