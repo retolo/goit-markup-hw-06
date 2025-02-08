@@ -997,10 +997,37 @@ p{
     }
 
     .fourth_item_list{
-        width: 356px;
+/*        width: 356px;*/
 
-        width:  calc((100% - 24px) / 3);
+        width:  calc((100% - 24px) / 2);
 
+    }
+
+    .foot_section .container{
+        padding-left: 108px;
+        padding-right: 164px ;
+    }
+
+
+    .footer-form{
+        flex-direction: row;
+        gap: 24px;
+        justify-content: flex-start;
+    }
+
+    .form-foot-text{
+        text-align: left;
+    }
+
+
+    .information_block_footer{
+        align-items: flex-start;
+/*        flex-wrap: wrap;*/
+        flex-direction: column;
+    }
+
+    .foot_text{
+        max-width: 264px;
     }
 
 
