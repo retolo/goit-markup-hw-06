@@ -1032,5 +1032,30 @@ p{
 
 
 
+
+
+    .footer_icons_list{
+        display: flex;
+
+
+    }
+
+    .content-footer{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .tex_soc_footer{
+        text-align: left;
+    }
+
+    .footer_icons{
+        margin-left: 24px;
+    }
+
+
 }
+
+
+
 
