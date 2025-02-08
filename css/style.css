@@ -14,11 +14,12 @@ body{
     text-transform: uppercase;
     color: #4d5ae5;
 /*    margin-right: 76px;*/
+    padding-bottom: 16px;
+    padding-top: 16px;
 }
 
 .header{
-    padding-bottom: 16px;
-    padding-top: 16px;
+
 }
 
 .mob-header-icon{
@@ -112,7 +113,7 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
 /*    max-width: 1440px;*/
-    max-width: 320px;
+/*    max-width: 320px;*/
     background-position: center;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/main-bg-mob.png);
 /*    padding: 188px 0;*/
@@ -397,8 +398,12 @@ img{
 .container{
     max-width: 320px;
 /*    width: 1158px;*/
-    margin: 0 auto;
-    padding: 0 15px;
+/*    margin: 0 auto;*/
+/*    padding: 0 15px;*/
+     padding-left: 16px;
+      padding-right: 16px;
+      margin-left: auto;
+      margin-right: auto;
 
 }
 
@@ -940,5 +945,40 @@ p{
     fill: #f4f4fd;
 }
 
+@media screen and (min-width: 768px){
+    .container{
+        max-width: 768px;
+    }
 
+    .info{
+        background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)),
+
+        url(../images/bg-main-tablet.png);
+
+    }
+
+    .header_first_section{
+        font-size: 56px;
+        line-height: 1.17;
+        max-width: 496px;
+        margin-bottom: 36px;
+
+    }
+
+
+
+    .second_list{
+        flex-direction: row;
+
+
+        gap: 24px;
+    }
+
+
+
+
+
+}
 
