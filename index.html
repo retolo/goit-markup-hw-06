@@ -18,9 +18,10 @@
     <div class="header_wrapper container">
         <nav class="navigation_header">
             <a class="navigation" href="./index.html">Web<span class="studio">Studio</span></a>
-            <svg width="24" height="24" class="mob-header-icon">
+            <button class="mob-header-icon-button" type="button"><svg width="24" height="24" class="mob-header-icon">
                 <use href="./images/symbol-defs.svg#icon-heroicons-solid_menu"></use>
             </svg>
+            </button>
             <ul class="header_menu">
                 <li><a class="nav-items" href="./index.html">Studio</a></li>
                 <li><a class="nav-items" href="">Portfolio</a></li>
@@ -34,6 +35,77 @@
             </ul>
         </address>
     </div>
+
+
+    <div class="menu-backdrop is-open">
+        <div class="container menu-modal">
+            <button class="btn_quit" type="button">
+                <svg width="8" height="8" class="close-icon">
+                    <use href="./images/symbol-defs.svg#icon-close-black-18dp-2-1"></use>
+                </svg>
+            </button>
+
+<!--            <div class="menu-mob-items">-->
+                <nav class="menu-mob-items-nav">
+                    <ul class="menu-mob-items-nav-list">
+                        <li><a href="" class="menu-mob-items-text">Studio</a></li>
+                        <li><a href="" class="menu-mob-items-text">Portfolio</a></li>
+                        <li><a href="" class="menu-mob-items-text">Contacts</a></li>
+                     </ul>
+                </nav>
+<!--            </div>-->
+
+    <!--        <div class="social-mob-menu">-->
+                <address>
+                    <ul class="social-mob-menu-list">
+                        <li><a class="social-mob-menu-list-item" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                        <li><a class="social-mob-menu-list-item" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+                    </ul>
+                </address>
+
+    <!--        </div>-->
+            <div class="social-mob-menu-icons">
+                <ul class="social-mob-menu-icons-list">
+                    <li class="icon"><a href="" class="link_soc_icons_footer">
+                        <svg width="24" height="24" class="icon_svg">
+                            <use href="./images/icons.svg#icon-instagram"></use>
+                        </svg>
+                    </a>
+                        </li>
+
+                    <li class="icon"><a href="" class="link_soc_icons_footer">
+                        <svg width="24" height="24" class="icon_svg">
+                            <use href="./images/icons.svg#icon-twitter"></use>
+                        </svg>
+                    </a>
+                        </li>
+
+                     <li class="icon"><a href="" class="link_soc_icons_footer">
+                         <svg width="24" height="24" class="icon_svg">
+                             <use href="./images/icons.svg#icon-facebook"></use>
+                         </svg>
+                     </a>
+                    </li>
+
+                    <li class="icon"><a href="" class="link_soc_icons_footer">
+                        <svg width="24" height="24" class="icon_svg">
+                            <use href="./images/icons.svg#icon-linkedin"></use>
+                        </svg>
+                    </a>
+                    </li>
+                    </ul>
+            </div>
+
+    </div>
+</div>
+
+
+
+
+
+
+
+
 </header>
 <!--<main>-->
     <section class="info">
@@ -472,7 +544,7 @@
         </div>
 
 </footer>
-<div class="backdrop">
+<div class="backdrop ">
     <div class="modal">
         <button class="btn_quit" type="button">
             <svg width="8" height="8" class="close-icon">
@@ -562,7 +634,7 @@
                     </svg>
                 </span>
 
-                I accept the terms and conditions of the <a href="" class="privacy-policy">Privacy Policy</a>
+                I accept the terms and conditions of the <span><a href="" class="privacy-policy">Privacy Policy</a></span>
 
             </label>
 
@@ -580,63 +652,7 @@
 </div>
 
 
-<div class="menu-backdrop is-open">
-    <div class="menu-modal">
-        <button class="btn_quit" type="button">
-            <svg width="8" height="8" class="close-icon">
-                <use href="./images/symbol-defs.svg#icon-close-black-18dp-2-1"></use>
-            </svg>
-        </button>
 
-        <div class="menu-mob-items">
-            <h2 class="menu-mob-items-text">Studio</h2>
-            <h2 class="menu-mob-items-text">Portfolio</h2>
-            <h2 class="menu-mob-items-text">Contacts</h2>
-        </div>
-
-        <div class="social-mob-menu">
-            <address>
-                <ul class="social-mob-menu-list">
-                    <li><a class="social-mob-menu-list-item" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                    <li><a class="social-mob-menu-list-item" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
-                </ul>
-            </address>
-
-        </div>
-        <div class="social-mob-menu-icons">
-            <ul class="social-mob-menu-icons-list">
-                <li class="icon"><a href="" class="link_soc_icons_footer">
-                    <svg width="24" height="24" class="icon_svg">
-                        <use href="./images/icons.svg#icon-instagram"></use>
-                    </svg>
-                </a>
-                    </li>
-
-                <li class="icon"><a href="" class="link_soc_icons_footer">
-                    <svg width="24" height="24" class="icon_svg">
-                        <use href="./images/icons.svg#icon-twitter"></use>
-                    </svg>
-                </a>
-                    </li>
-
-                 <li class="icon"><a href="" class="link_soc_icons_footer">
-                     <svg width="24" height="24" class="icon_svg">
-                         <use href="./images/icons.svg#icon-facebook"></use>
-                     </svg>
-                 </a>
-                </li>
-
-                <li class="icon"><a href="" class="link_soc_icons_footer">
-                    <svg width="24" height="24" class="icon_svg">
-                        <use href="./images/icons.svg#icon-linkedin"></use>
-                    </svg>
-                </a>
-                </li>
-                </ul>
-        </div>
-
-    </div>
-</div>
 
 </body>
 </html>
