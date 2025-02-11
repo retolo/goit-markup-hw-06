@@ -375,13 +375,15 @@ img{
 }
 
 
-.foot_text{
+.foot_text {
     font-size: 16px;
     line-height: 1.5;
     font-weight: 400;
     letter-spacing: 0.02em;
     color: #F4F4FD;
-/*    margin-bottom: 72px;*/
+    max-width: 264px;
+
+
 }
 
 .studio_footer{
@@ -556,12 +558,13 @@ ul{
 
 .information_block_footer{
 /*    margin-right: 120px;*/
-/*    max-width: 264px;*/
+    max-width: 264px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    margin-bottom: 72px;
+/*    margin-bottom: 72px;*/
+
 
 
 }
@@ -719,6 +722,7 @@ p{
     background-color: #fff;
     top: 0;
     left: 0;
+    z-index: 999;
 
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -836,11 +840,12 @@ p{
     opacity: 1;
     visibility: visible;
     pointer-events: auto;
+
 }
 
-@media screen  and (min-width: 767px){
+@media screen  and (max-width: 767px){
     .modal{
-        width: 288px;
+        width: 320px;
         padding-left: 16px;
         padding-right: 16px;
 
@@ -1220,9 +1225,9 @@ p{
         flex-direction: column;
     }
 
-    .foot_text{
-        max-width: 264px;
-    }
+/*    .foot_text{*/
+/*        max-width: 264px;*/
+/*    }*/
 
 
 
@@ -1383,6 +1388,7 @@ p{
     .information_block_footer{
         margin-right: 120px;
         margin-bottom: 0;
+        min-width: 264px;
     }
 
     .footer_icons{
@@ -1408,6 +1414,8 @@ p{
     .content-footer{
         flex-wrap: nowrap;
     }
+
+
 
 
 
