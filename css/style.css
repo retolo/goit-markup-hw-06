@@ -1429,3 +1429,18 @@ p{
 }
 
 
+
+@media sreen and (min-resolution:2x){
+    .info{
+            background-image: linear-gradient(
+
+            rgba(46, 47, 66, 0.7),
+            rgba(46, 47, 66, 0.7)),
+
+            url(../images/dark-bg-mob-2x.png);
+
+    }
+
+}
+
+
