@@ -988,6 +988,9 @@ p{
 .modal-label-check{
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
+
+
 
     font-size: 12px;
     line-height: 1.17;
@@ -999,6 +1002,9 @@ p{
     padding: 0;
 
 }
+
+
+
 
 .modal-label:not(:first-child){
     margin-top: 8px;
