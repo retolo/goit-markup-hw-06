@@ -56,15 +56,15 @@
 <!--            </div>-->
 
     <!--        <div class="social-mob-menu">-->
-                <address>
+                <address class="social-mob-menu-adress">
                     <ul class="social-mob-menu-list">
-                        <li><a class="social-mob-menu-list-item" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                        <li><a class="social-mob-menu-list-item" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+                        <li><a class="social-mob-menu-list-item" href="mailto:info@devstudio.com">+11 (000) 111-11-11</a></li>
+                        <li><a class="social-mob-menu-list-item" href="tel:+110001111111">info@devstudio.com</a></li>
                     </ul>
                 </address>
 
     <!--        </div>-->
-            <div class="social-mob-menu-icons">
+<!--            <div class="social-mob-menu-icons">-->
                 <ul class="social-mob-menu-icons-list">
                     <li class="icon"><a href="" class="link_soc_icons_footer">
                         <svg width="24" height="24" class="icon_svg">
@@ -93,8 +93,8 @@
                         </svg>
                     </a>
                     </li>
-                    </ul>
-            </div>
+                </ul>
+<!--            </div>-->
 
     </div>
 </div>
@@ -175,12 +175,13 @@
                 <h2 class="header_third_section">Our Team</h2>
                 <ul class="list_third_section">
                     <li class="item_list">
-                        <picture>
-                                  <source srcset="./images/firstmen-mob-2x.png" media="(min-resolution: 2x)">
+                        <img
+                                src="./images/img-min.jpg" alt="mark" width="264" height="260"
+                                srcset="
+                                ./images/img-min.jpg 1x,
+                                ./images/firstmen-mob-2x.jpg 2x"
+                        >
 
-                                  <img src="/images/img-min.jpg" alt="app">
-                            </picture>
-<!--                        <img src="./images/img-min.jpg" alt="mark" width="264" height="260">-->
                         <div class="job_container">
                             <h3 class="name_header">Mark Guerrero</h3>
                             <p class="text_name">Product Designer</p>
@@ -220,12 +221,13 @@
                     </li>
 
                     <li class="item_list">
-                        <picture>
-                                  <source srcset="./images/ford-mob-2x.png" media="(min-resolution: 2x)">
+                        <img
+                                src="./images/img-(1)-min.jpg" alt="tom" width="264" height="260"
+                                srcset="
+                                ./images/img-(1)-min.jpg 1x,
+                                ./images/ford-mob-2x.jpg 2x"
+                        >
 
-                                  <img src="./images/img-(1)-min.jpg" alt="app">
-                            </picture>
-<!--                        <img src="./images/img-(1)-min.jpg" alt="tom" width="264" height="260">-->
                         <div class="job_container">
                             <h3  class="name_header">Tom Ford</h3>
                             <p class="text_name">Frontend Developer</p>
@@ -264,12 +266,14 @@
                     </li>
 
                     <li class="item_list">
-<!--                        <img src="./images/img-(2)-min.jpg" alt="camila" width="264" height="260">-->
-                        <picture>
-                                  <source srcset="./images/garcia-mob-2x.png" media="(min-resolution: 2x)">
+                        <img
+                                src="./images/img-(2)-min.jpg" alt="camila" width="264" height="260"
+                                srcset="
+                                ./images/img-(2)-min.jpg 1x,
+                                ./images/garcia-mob-2x.jpg 2x"
 
-                                  <img src="./images/img-(2)-min.jpg" alt="app">
-                            </picture>
+                        >
+
                         <div class="job_container">
                             <h3  class="name_header">Camila Garcia</h3>
                             <p class="text_name">Marketing</p>
@@ -309,12 +313,13 @@
                     </li>
 
                     <li class="item_list">
-<!--                        <img src="./images/img-(3)-min.jpg" alt="daniel" width="264" height="260">-->
-                        <picture>
-                                  <source srcset="./images/wilson-mob-2x.png" media="(min-resolution: 2x)">
+                        <img
+                                src="./images/img-(3)-min.jpg" alt="daniel" width="264" height="260"
+                                srcset="
+                                ./images/img-(3)-min.jpg 1x,
+                                ./images/wilson-mob-2x.jpg 2x"
+                        >
 
-                                  <img src="./images/img-(3)-min.jpg" alt="app">
-                            </picture>
                         <div class="job_container">
                             <h3  class="name_header">Daniel Wilson</h3>
                             <p class="text_name">UI Designer</p>
@@ -363,14 +368,13 @@
             <ul class="fourth_list">
                 <li class="fourth_item_list">
                     <div class="card">
-<!--                        <img  src="./images/img-mob.png" alt="app" width="360">-->
+                        <img  src="./images/img-mob.jpg" alt="app" width="360"
+                        srcset="
+                        ./images/img-mob.jpg 1x,
+                        ./images/app-mob-2x.jpg 2x"
 
-                        <picture>
-                                  <source srcset="./images/app-tablet.png" media="(min-width: 768px)">
-                                <source srcset="./images/app-mob-2x.png" media="(min-resolution: 2x)">
 
-                                  <img src="./images/img-mob.png" alt="app">
-                            </picture>
+                        >
 
                         <p class="transition_card">
                             14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App
@@ -385,12 +389,13 @@
 
                 <li class="fourth_item_list">
                     <div class="card">
-<!--                        <img src="./images/phone-mob.png" alt="brain" width="360">-->
-                        <picture>
-                                  <source srcset="./images/phone-tablet.png" media="(min-width: 768px)">
-                            <source srcset="./images/phone-mob-2x.png" media="(min-resolution: 2x)">
-                                  <img src="./images/phone-mob.png" alt="brain">
-                            </picture>
+                        <img
+                                src="./images/phone-mob.jpg" alt="brain" width="360"
+                                srcset="
+                                ./images/phone-mob.jpg 1x,
+                                ./images/phone-mob-2x.jpg 2x"
+
+                        >
 
                         <p class="transition_card">
                             14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App
@@ -408,12 +413,13 @@
 
                 <li class="fourth_item_list">
                     <div class="card">
-<!--                        <img src="./images/tablet-mob.png" alt="tablet" width="360">-->
-                            <picture>
-                                  <source srcset="./images/tab-tablet.jpg" media="(min-width: 768px)">
-                                <source srcset="./images/tablet-mob-2x.png" media="(min-resolution: 2x)">
-                                  <img src="./images/tablet-mob.png" alt="tablet">
-                            </picture>
+                        <img
+                                src="./images/tablet-mob.jpg" alt="tablet" width="360"
+                                srcset="
+                                ./images/tablet-mob.jpg 1x,
+                                ./images/tablet-mob-2x.jpg 2x"
+
+                        >
 
                         <p class="transition_card">
                             14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App
@@ -430,12 +436,13 @@
 
                 <li class="fourth_item_list">
                     <div class="card">
-<!--                        <img src="./images/car-mob.png" alt="wheel" width="360">-->
-                        <picture>
-                                  <source srcset="./images/car-tablet.png" media="(min-width: 768px)">
-                            <source srcset="./images/car-mob-2x.png" media="(min-resolution: 2x)">
-                                  <img src="./images/car-mob.png" alt="wheel">
-                            </picture>
+                        <img
+                                src="./images/car-mob.jpg" alt="wheel" width="360"
+                                srcset="
+                                ./images/car-mob.jpg 1x,
+                                ./images/car-mob-2x.jpg 2x"
+
+                        >
 
                         <p class="transition_card">
                             14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App
@@ -453,14 +460,12 @@
                 <li class="fourth_item_list">
 
                     <div class="card">
-<!--                        <img src="./images/moon-mob.png" alt="moon" width="360">-->
-                        <picture>
-                                  <source srcset="./images/moon-tablet.png" media="(min-width: 768px)">
-                            <source srcset="./images/moon-mob-2x.png" media="(min-resolution: 2x)">
-                                  <img src="./images/moon-mob.png" alt="moon">
-                            </picture>
-
-
+                        <img
+                                src="./images/moon-mob.jpg" alt="moon" width="360"
+                                srcset="
+                                ./images/moon-mob.jpg 1x,
+                                ./images/moon-mob-2x.jpg 2x"
+                        >
 
                        <p class="transition_card">
                             14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App
@@ -478,13 +483,12 @@
 
                 <li class="fourth_item_list">
                     <div class="card">
-<!--                        <img src="./images/girl-mob.png" alt="girl" width="360">-->
-                        <picture>
-                                  <source srcset="./images/girl-tablet.png" media="(min-width: 768px)">
-                            <source srcset="./images/girl-mob-2x.png" media="(min-resolution: 2x)">
-                                  <img src="./images/girl-mob.png" alt="girl">
-                            </picture>
-
+                        <img
+                                src="./images/girl-mob.jpg" alt="girl" width="360"
+                                srcset="
+                                ./images/girl-mob.jpg 1x,
+                                ./images/girl-mob-2x.jpg 2x"
+                        >
 
                         <p class="transition_card">
                             14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App
