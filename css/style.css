@@ -1247,6 +1247,7 @@ p{
         align-items: flex-start;
 /*        flex-wrap: wrap;*/
         flex-direction: column;
+        margin-bottom: 0;
     }
 
 /*    .foot_text{*/
